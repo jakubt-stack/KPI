@@ -1,0 +1,33 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body, #root { height: 100%; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f172a; color: #f1f5f9; line-height: 1.2; }
+header { background: #000; padding: 0.4rem 1rem; display: flex; justify-content: space-between; align-items: center; }
+.logo { height: 80px; }
+.as-of { font-size: 0.75rem; color: #94a3b8; }
+main { height: calc(100% - 90px); padding: 0.4rem; display: grid; grid-template-columns: repeat(4, 1fr); grid-template-rows: repeat(3, 1fr) auto; gap: 0.4rem; }
+.block { background: #1e293b; border-radius: 6px; overflow: hidden; display: flex; flex-direction: column; }
+.block h2 { font-size: 0.65rem; font-weight: 600; padding: 0.25rem 0.5rem; color: white; text-transform: uppercase; letter-spacing: 0.5px; }
+.safety h2 { background: #475569; }
+.quality h2 { background: #b91c1c; }
+.delivery h2 { background: #1d4ed8; }
+.output h2 { background: #047857; }
+.laminate h2 { background: #7c3aed; }
+.raw h2 { background: #0e7490; }
+.cycle-zip h2 { background: #4338ca; }
+.cycle-lam h2 { background: #7c3aed; }
+.movers h2 { background: #334155; }
+.tiles { display: grid; grid-template-columns: repeat(2, 1fr); flex: 1; }
+.tile { padding: 0.3rem 0.5rem; border-bottom: 1px solid #334155; display: flex; flex-direction: column; justify-content: center; }
+.tile:nth-child(odd) { border-right: 1px solid #334155; }
+.tile .label { display: block; font-size: 0.7rem; color: #94a3b8; }
+.tile .value { display: block; font-size: 1.6rem; font-weight: 700; color: #f1f5f9; }
+.tile .note { display: block; font-size: 0.6rem; color: #64748b; }
+.movers { grid-column: 1 / -1; }
+.movers-grid { display: grid; grid-template-columns: repeat(3, 1fr); flex: 1; }
+.mover { padding: 0.5rem 0.75rem; display: flex; flex-direction: column; justify-content: center; }
+.mover h3 { font-size: 0.75rem; margin-bottom: 0.2rem; font-weight: 600; }
+.mover.better h3 { color: #34d399; }
+.mover.worse h3 { color: #f87171; }
+.mover.notes h3 { color: #94a3b8; }
+.mover p { font-size: 1.05rem; color: #f1f5f9; line-height: 1.3; }
+footer { display: none; }
