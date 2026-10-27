@@ -135,8 +135,7 @@ const data = {
     },
     {
       "label": "Start → complete",
-      "value": "11.2 d",
-      "note": "In QC (AF) · n=237"
+      "value": "11.2 d"
     },
     {
       "label": "Start → ship",
@@ -144,8 +143,7 @@ const data = {
     },
     {
       "label": "Complete → ship",
-      "value": "12.6 d",
-      "note": "In QC → ship · n=237"
+      "value": "12.6 d"
     }
   ],
   "cycleLam": [
