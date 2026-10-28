@@ -5,12 +5,12 @@ const data = {
   "safety": [
     {
       "label": "TRIR",
-      "value": "6",
-      "note": "Recordables 1"
+      "value": "0",
+      "note": "Recordables 0"
     },
     {
       "label": "Recordables",
-      "value": "1"
+      "value": "0"
     },
     {
       "label": "Near misses",
@@ -18,9 +18,8 @@ const data = {
       "note": "Not in TRIR"
     },
     {
-      "label": "HiPo",
-      "value": "0",
-      "note": "YTD"
+      "label": "Accidents",
+      "value": "1"
     }
   ],
   "quality": [
