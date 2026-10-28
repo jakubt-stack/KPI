@@ -82,7 +82,7 @@ const data = {
     {
       "label": "10-day actual",
       "value": "4,948",
-      "note": "All / day"
+      "note": "All / day · Target 6,075 · 81%"
     }
   ],
   "laminate": [
