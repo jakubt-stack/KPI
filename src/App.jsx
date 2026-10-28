@@ -168,7 +168,7 @@ const data = {
   ],
   "movers": {
     "better": "No improvements detected in tracked metrics.",
-    "worse": "Scrap rate rose from 0.3% to 1.4% — 250 scrapped out of 18,200 made. Daily output slipped from 5,110 to 4,550. Effective capacity is 6,075, so utilization is 75%.",
+    "worse": "Scrap rate rose from 0.3% to 1.4% — 250 scrapped out of 18,200 made. Zipper output, last 7 days: 4,550/day vs 5,110 prior week (10-day avg 4,948). Last-7-day utilization 75% of 6,075 capacity.",
     "notes": "Molded ZPOH 58.2 → 59.3; metal/coil 102.8 → 75.9. Prior-week open complaints, past-due and capacity snapshots are not stored, so those changes are not shown."
   }
 }
