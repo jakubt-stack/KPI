@@ -7,13 +7,13 @@ header { background: #000; padding: 0.4rem 1rem; display: flex; justify-content:
 main { height: calc(100% - 90px); padding: 0.4rem; display: grid; grid-template-columns: repeat(4, 1fr); grid-template-rows: repeat(3, 1fr) auto; gap: 0.4rem; }
 .block { background: #1e293b; border-radius: 6px; overflow: hidden; display: flex; flex-direction: column; }
 .block h2 { font-size: 1rem; font-weight: 600; padding: 0.25rem 0.5rem; color: white; text-transform: uppercase; letter-spacing: 0.5px; }
-.safety h2 { background: #475569; }
-.quality h2 { background: #b91c1c; }
+.safety h2 { background: #374151; }
+.quality h2 { background: #4B5320; }
 .delivery h2 { background: #1d4ed8; }
-.output h2 { background: #047857; }
+.output h2 { background: #1d4ed8; }
 .laminate h2 { background: #7c3aed; }
-.raw h2 { background: #0e7490; }
-.cycle-zip h2 { background: #4338ca; }
+.raw h2 { background: #F0E1B0; color: #1F2937; }
+.cycle-zip h2 { background: #1d4ed8; }
 .cycle-lam h2 { background: #7c3aed; }
 .movers h2 { background: #334155; }
 .tiles { display: grid; grid-template-columns: repeat(2, 1fr); flex: 1; }
