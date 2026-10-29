@@ -208,9 +208,9 @@ export default function App() {
         <Block title="Quality" className="quality" tiles={data.quality} />
         <Block title="Zipper Delivery" className="delivery" tiles={data.delivery} />
         <Block title="Zipper Output" className="output" tiles={data.output} />
-        <Block title="Cycle · Zippers" className="cycle-zip" tiles={data.cycleZip} />
         <Block title="Laminate" className="laminate" tiles={data.laminate} />
         <Block title="Cycle · Laminate" className="cycle-lam" tiles={data.cycleLam} />
+        <Block title="Cycle · Zippers" className="cycle-zip" tiles={data.cycleZip} />
         <Block title="Raw / Crossdock" className="raw" tiles={data.raw} />
         <section className="block movers">
           <h2>What Moved</h2>
