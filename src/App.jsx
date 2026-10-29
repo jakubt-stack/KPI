@@ -132,25 +132,30 @@ const data = {
   "cycleZip": [
     {
       "label": "Order → start",
-      "value": "93.8 d"
+      "value": "93.8 d",
+      "note": "Goal 5 days"
     },
     {
       "label": "Start → complete",
-      "value": "12.0 d"
+      "value": "12.0 d",
+      "note": "Goal 15 days"
     },
     {
       "label": "Start → ship",
-      "value": "22.1 d"
+      "value": "22.1 d",
+      "note": "Goal 20 days"
     },
     {
       "label": "Complete → ship",
-      "value": "12.9 d"
+      "value": "12.9 d",
+      "note": "Goal 5 days"
     }
   ],
   "cycleLam": [
     {
       "label": "Order → ship",
-      "value": "92.9 d"
+      "value": "92.9 d",
+      "note": "Goal 112 days"
     },
     {
       "label": "Late orders",
