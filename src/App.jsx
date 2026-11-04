@@ -1,7 +1,7 @@
 import React from 'react'
 
 const data = {
-  "asOf": "2026-11-03",
+  "asOf": "2026-11-04",
   "safety": [
     {
       "label": "TRIR",
@@ -25,29 +25,29 @@ const data = {
   "quality": [
     {
       "label": "Open complaints",
-      "value": "15"
+      "value": "14"
     },
     {
       "label": "Oldest open",
-      "value": "94 d",
+      "value": "95 d",
       "note": "Filed 1 Aug"
     },
     {
       "label": "Scrap past week",
-      "value": "1.58%",
-      "note": "223 of 14,109 · YTD 1,551"
+      "value": "1.78%",
+      "note": "172 of 9,639 · YTD 1,632"
     },
     {
       "label": "Avg daily audits",
-      "value": "9.2",
-      "note": "185 total · 1 failed"
+      "value": "9.6",
+      "note": "202 total · 1 failed"
     }
   ],
   "delivery": [
     {
       "label": "Full ERP weeks",
       "value": "6.6",
-      "note": "199,568 zippers on order"
+      "note": "199,156 zippers on order"
     },
     {
       "label": "Molded backlog",
@@ -57,7 +57,7 @@ const data = {
     {
       "label": "Coil backlog",
       "value": "1.6 wk",
-      "note": "18,745 units"
+      "note": "18,620 units"
     },
     {
       "label": "Metal backlog",
@@ -91,7 +91,7 @@ const data = {
     {
       "label": "Backlog weeks",
       "value": "9.1",
-      "note": "163,620 yd past due"
+      "note": "163,402 yd past due"
     },
     {
       "label": "10-day output",
@@ -100,8 +100,8 @@ const data = {
     },
     {
       "label": "Yards scheduled",
-      "value": "200,120",
-      "note": "Total on order 189,459"
+      "value": "197,722",
+      "note": "Total on order 187,061"
     },
     {
       "label": "Day capacity",
@@ -112,59 +112,59 @@ const data = {
   "raw": [
     {
       "label": "Open orders",
-      "value": "37"
+      "value": "38"
     },
     {
       "label": "Avg fulfillment",
-      "value": "26.5 d",
+      "value": "24.7 d",
       "note": "Order to ship"
     },
     {
       "label": "Past due orders",
-      "value": "44"
+      "value": "27"
     },
     {
       "label": "Past due %",
-      "value": "119%",
-      "note": "44 of 37"
+      "value": "71%",
+      "note": "27 of 38"
     }
   ],
   "cycleZip": [
     {
       "label": "Order → start",
-      "value": "91.6 d",
+      "value": "91.2 d",
       "note": "Goal 5 days"
     },
     {
       "label": "Start → complete",
-      "value": "12.1 d",
+      "value": "12.0 d",
       "note": "Goal 15 days"
     },
     {
       "label": "Start → ship",
-      "value": "22.2 d",
+      "value": "-85.1 d",
       "note": "Goal 20 days"
     },
     {
       "label": "Complete → ship",
-      "value": "12.6 d",
+      "value": "12.4 d",
       "note": "Goal 5 days"
     }
   ],
   "cycleLam": [
     {
       "label": "Order → ship",
-      "value": "92.9 d",
+      "value": "85.2 d",
       "note": "Goal 112 days"
     },
     {
       "label": "Late orders",
-      "value": "44.3 d",
+      "value": "73.6 d",
       "note": "due-ship"
     },
     {
       "label": "All orders",
-      "value": "-11.4 d",
+      "value": "0.4 d",
       "note": "due-ship"
     },
     {
@@ -174,9 +174,9 @@ const data = {
     }
   ],
   "movers": {
-    "better": "No improvements detected in tracked metrics.",
-    "worse": "Scrap rate rose from 1.2% to 1.6% — 223 scrapped out of 14,109 made. Zipper output, last 7 days: 3,527/day vs 4,562 prior week (10-day avg 4,236). Last-7-day utilization 58% of 6,075 capacity.",
-    "notes": "Molded ZPOH 58.8 → 60.0; metal/coil 79.3 → 76.3. Prior-week open complaints, past-due and capacity snapshots are not stored, so those changes are not shown."
+    "better": "Scrap rate fell from 1.8% to 1.8% — 172 scrapped out of 9,639 made.",
+    "worse": "Zipper output, last 7 days: 3,213/day vs 4,534 prior week (10-day avg 4,236). Last-7-day utilization 53% of 6,075 capacity.",
+    "notes": "Molded ZPOH 59.9 → 59.0; metal/coil 78.4 → 70.2. Prior-week open complaints, past-due and capacity snapshots are not stored, so those changes are not shown."
   }
 }
 
