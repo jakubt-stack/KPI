@@ -142,7 +142,7 @@ const data = {
     },
     {
       "label": "Start → ship",
-      "value": "-85.1 d",
+      "value": "22.7 d",
       "note": "Goal 20 days"
     },
     {
