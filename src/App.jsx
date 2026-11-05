@@ -1,7 +1,7 @@
 import React from 'react'
 
 const data = {
-  "asOf": "2026-11-04",
+  "asOf": "2026-11-05",
   "safety": [
     {
       "label": "TRIR",
@@ -29,30 +29,30 @@ const data = {
     },
     {
       "label": "Oldest open",
-      "value": "95 d",
+      "value": "96 d",
       "note": "Filed 1 Aug"
     },
     {
       "label": "Scrap past week",
-      "value": "1.78%",
-      "note": "172 of 9,639 · YTD 1,632"
+      "value": "2.18%",
+      "note": "267 of 12,236 · YTD 1,749"
     },
     {
       "label": "Avg daily audits",
-      "value": "9.6",
-      "note": "202 total · 1 failed"
+      "value": "10.2",
+      "note": "224 total · 2 failed"
     }
   ],
   "delivery": [
     {
       "label": "Full ERP weeks",
-      "value": "6.6",
-      "note": "199,156 zippers on order"
+      "value": "6.9",
+      "note": "210,663 zippers on order"
     },
     {
       "label": "Molded backlog",
       "value": "0.01 wk",
-      "note": "200 units"
+      "note": "275 units"
     },
     {
       "label": "Coil backlog",
@@ -78,13 +78,13 @@ const data = {
     },
     {
       "label": "Metal/Coil ZPOH",
-      "value": "81.7",
+      "value": "75.4",
       "note": "Target 125"
     },
     {
       "label": "10-day actual",
-      "value": "4,236",
-      "note": "All / day · Target 6,075 · 70%"
+      "value": "3,775",
+      "note": "All / day · Target 6,075 · 62%"
     }
   ],
   "laminate": [
@@ -101,7 +101,7 @@ const data = {
     {
       "label": "Yards scheduled",
       "value": "197,722",
-      "note": "Total on order 187,061"
+      "note": "Total on order 177,033"
     },
     {
       "label": "Day capacity",
@@ -112,27 +112,27 @@ const data = {
   "raw": [
     {
       "label": "Open orders",
-      "value": "38"
+      "value": "36"
     },
     {
       "label": "Avg fulfillment",
-      "value": "24.7 d",
+      "value": "24.5 d",
       "note": "Order to ship"
     },
     {
       "label": "Past due orders",
-      "value": "27"
+      "value": "25"
     },
     {
       "label": "Past due %",
-      "value": "71%",
-      "note": "27 of 38"
+      "value": "69%",
+      "note": "25 of 36"
     }
   ],
   "cycleZip": [
     {
       "label": "Order → start",
-      "value": "91.2 d",
+      "value": "89.8 d",
       "note": "Goal 5 days"
     },
     {
@@ -142,29 +142,29 @@ const data = {
     },
     {
       "label": "Start → ship",
-      "value": "22.7 d",
+      "value": "22.4 d",
       "note": "Goal 20 days"
     },
     {
       "label": "Complete → ship",
-      "value": "12.4 d",
+      "value": "11.9 d",
       "note": "Goal 5 days"
     }
   ],
   "cycleLam": [
     {
       "label": "Order → ship",
-      "value": "85.2 d",
+      "value": "88.1 d",
       "note": "Goal 112 days"
     },
     {
       "label": "Late orders",
-      "value": "73.6 d",
+      "value": "68.4 d",
       "note": "due-ship"
     },
     {
       "label": "All orders",
-      "value": "0.4 d",
+      "value": "1.8 d",
       "note": "due-ship"
     },
     {
@@ -174,9 +174,9 @@ const data = {
     }
   ],
   "movers": {
-    "better": "Scrap rate fell from 1.8% to 1.8% — 172 scrapped out of 9,639 made.",
-    "worse": "Zipper output, last 7 days: 3,213/day vs 4,534 prior week (10-day avg 4,236). Last-7-day utilization 53% of 6,075 capacity.",
-    "notes": "Molded ZPOH 59.9 → 59.0; metal/coil 78.4 → 70.2. Prior-week open complaints, past-due and capacity snapshots are not stored, so those changes are not shown."
+    "better": "No improvements detected in tracked metrics.",
+    "worse": "Scrap rate rose from 1.5% to 2.2% — 267 scrapped out of 12,236 made. Zipper output, last 7 days: 3,059/day vs 4,188 prior week (10-day avg 3,775). Last-7-day utilization 50% of 6,075 capacity.",
+    "notes": "Molded ZPOH 58.8 → 58.0; metal/coil 76.3 → 72.5. Prior-week open complaints, past-due and capacity snapshots are not stored, so those changes are not shown."
   }
 }
 
