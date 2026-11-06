@@ -1,7 +1,7 @@
 import React from 'react'
 
 const data = {
-  "asOf": "2026-11-05",
+  "asOf": "2026-11-06",
   "safety": [
     {
       "label": "TRIR",
@@ -19,7 +19,7 @@ const data = {
     },
     {
       "label": "Accidents",
-      "value": "1"
+      "value": "2"
     }
   ],
   "quality": [
@@ -29,35 +29,35 @@ const data = {
     },
     {
       "label": "Oldest open",
-      "value": "96 d",
+      "value": "97 d",
       "note": "Filed 1 Aug"
     },
     {
       "label": "Scrap past week",
-      "value": "2.18%",
-      "note": "267 of 12,236 · YTD 1,749"
+      "value": "1.46%",
+      "note": "218 of 14,905 · YTD 1,761"
     },
     {
       "label": "Avg daily audits",
-      "value": "10.2",
-      "note": "224 total · 2 failed"
+      "value": "10.7",
+      "note": "247 total · 2 failed"
     }
   ],
   "delivery": [
     {
       "label": "Full ERP weeks",
-      "value": "6.9",
-      "note": "210,663 zippers on order"
+      "value": "6.8",
+      "note": "205,819 zippers on order"
     },
     {
       "label": "Molded backlog",
       "value": "0.01 wk",
-      "note": "275 units"
+      "note": "200 units"
     },
     {
       "label": "Coil backlog",
       "value": "1.6 wk",
-      "note": "18,620 units"
+      "note": "18,820 units"
     },
     {
       "label": "Metal backlog",
@@ -73,18 +73,18 @@ const data = {
     },
     {
       "label": "Molded ZPOH",
-      "value": "59.1",
+      "value": "58.3",
       "note": "Target 95"
     },
     {
       "label": "Metal/Coil ZPOH",
-      "value": "75.4",
+      "value": "77.7",
       "note": "Target 125"
     },
     {
       "label": "10-day actual",
-      "value": "3,775",
-      "note": "All / day · Target 6,075 · 62%"
+      "value": "3,938",
+      "note": "All / day · Target 6,075 · 65%"
     }
   ],
   "laminate": [
@@ -100,8 +100,8 @@ const data = {
     },
     {
       "label": "Yards scheduled",
-      "value": "197,722",
-      "note": "Total on order 177,033"
+      "value": "205,731",
+      "note": "Total on order 182,618"
     },
     {
       "label": "Day capacity",
@@ -112,27 +112,27 @@ const data = {
   "raw": [
     {
       "label": "Open orders",
-      "value": "36"
+      "value": "33"
     },
     {
       "label": "Avg fulfillment",
-      "value": "24.5 d",
+      "value": "23.4 d",
       "note": "Order to ship"
     },
     {
       "label": "Past due orders",
-      "value": "25"
+      "value": "22"
     },
     {
       "label": "Past due %",
-      "value": "69%",
-      "note": "25 of 36"
+      "value": "67%",
+      "note": "22 of 33"
     }
   ],
   "cycleZip": [
     {
       "label": "Order → start",
-      "value": "89.8 d",
+      "value": "89.6 d",
       "note": "Goal 5 days"
     },
     {
@@ -154,7 +154,7 @@ const data = {
   "cycleLam": [
     {
       "label": "Order → ship",
-      "value": "88.1 d",
+      "value": "84.7 d",
       "note": "Goal 112 days"
     },
     {
@@ -164,19 +164,19 @@ const data = {
     },
     {
       "label": "All orders",
-      "value": "1.8 d",
+      "value": "1.4 d",
       "note": "due-ship"
     },
     {
       "label": "Yards at risk",
-      "value": "76,603",
+      "value": "76,494",
       "note": "Exceeding lead time"
     }
   ],
   "movers": {
-    "better": "No improvements detected in tracked metrics.",
-    "worse": "Scrap rate rose from 1.5% to 2.2% — 267 scrapped out of 12,236 made. Zipper output, last 7 days: 3,059/day vs 4,188 prior week (10-day avg 3,775). Last-7-day utilization 50% of 6,075 capacity.",
-    "notes": "Molded ZPOH 58.8 → 58.0; metal/coil 76.3 → 72.5. Prior-week open complaints, past-due and capacity snapshots are not stored, so those changes are not shown."
+    "better": "Scrap rate fell from 1.7% to 1.5% — 218 scrapped out of 14,905 made.",
+    "worse": "Zipper output, last 7 days: 3,726/day vs 3,901 prior week (10-day avg 3,938). Last-7-day utilization 61% of 6,075 capacity.",
+    "notes": "Molded ZPOH 57.9 → 57.2; metal/coil 74.8 → 83.2. Prior-week open complaints, past-due and capacity snapshots are not stored, so those changes are not shown."
   }
 }
 
