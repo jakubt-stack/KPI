@@ -158,21 +158,21 @@
    116174,
    213577,
    133178,
-   234439,
+   234939,
    175335,
    148333,
-   146120,
+   146121,
    172834,
-   183905,
+   183906,
    95675,
    128230,
    83816,
-   275158,
-   180442,
-   80544,
-   94182,
-   76287.06,
-   100146.33
+   275159,
+   180443,
+   169860,
+   139468,
+   171798,
+   163805
   ],
   "new_rev": [
    null,
@@ -191,10 +191,10 @@
    81777,
    102631,
    112630,
-   141169.83,
-   86470.25
+   141170,
+   86470
   ],
-  "rev_source": "Schedule sheet 1YQLxtTQc738DQOUknT827XJTRdYOEmHZZ4YJpDj7XQ0, tab Totals, row 27 'Week of' B27:S27, row 38 'Shipped revenue' B38:S38, row 40 'New orders revenue' O40:S40 (blank B40:N40)"
+  "rev_source": "Schedule sheet 1YQLxtTQc738DQOUknT827XJTRdYOEmHZZ4YJpDj7XQ0, tab Totals, block A27:AA40 read through AA; weeks B27:S27 (18 filled); row 38 'Shipped revenue', row 40 'New orders revenue' (blank before first filled)"
  },
  "complaints": {
   "months": [
