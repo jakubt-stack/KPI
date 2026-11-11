@@ -89,10 +89,11 @@ export default function App() {
         <Block title="Quality" className="quality" tiles={data.quality} />
         <Block title="Zipper Delivery" className="delivery" tiles={data.delivery} />
         <Block title="Zipper Output" className="output" tiles={data.output} />
+        {/* Bottom row order (locked 2026-11-11, Jakub): Laminate, Cycle · Laminate, Cycle · Zippers, Raw / Crossdock */}
         <Block title="Laminate" className="laminate" tiles={data.laminate} />
-        <Block title="Raw / Crossdock" className="raw" tiles={data.raw} />
-        <Block title="Cycle · Zippers" className="cycle-zip" tiles={data.cycleZip} />
         <Block title="Cycle · Laminate" className="cycle-lam" tiles={data.cycleLam} />
+        <Block title="Cycle · Zippers" className="cycle-zip" tiles={data.cycleZip} />
+        <Block title="Raw / Crossdock" className="raw" tiles={data.raw} />
         <section className="block movers">
           <h2>What Moved</h2>
           <div className="movers-grid">
