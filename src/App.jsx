@@ -48,6 +48,7 @@ const data = {
     { label: "Order → ship", value: "76.6 d" },
     { label: "Due → ship", value: "-19.1 d", note: "Early vs due" },
     { label: "Yards at risk", value: "76,494", note: "Over lead time" },
+    { label: "On-time ship %", value: "68.8%", note: "11 of 16 by due date" },
   ],
   movers: {
     better: "Open complaints fell from 15 to 12. ZPOH rose from 66.0 to 67.6. Scrap fell from 1.37% to 1.03%.",
