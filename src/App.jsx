@@ -1,7 +1,7 @@
 import React from 'react'
 
 const data = {
-  asOf: '2026-11-11',
+  asOf: '2026-11-12',
   safety: [
     { label: "TRIR", value: "6.1", note: "1 recordable" },
     { label: "Recordables", value: "1", note: "5 Nov finger injury" },
@@ -10,15 +10,15 @@ const data = {
   ],
   quality: [
     { label: "Open complaints", value: "12", note: "4 closed, 1 new" },
-    { label: "Oldest open", value: "102 d", note: "Filed 1 Aug" },
+    { label: "Oldest open", value: "103 d", note: "Filed 1 Aug" },
     { label: "Scrap past week", value: "1.03%", note: "206 of 19,971" },
     { label: "Avg daily audits", value: "12.5", note: "2 failed" },
   ],
   delivery: [
-    { label: "Full ERP weeks", value: "6.2", note: "188,991 zippers on order" },
+    { label: "Full ERP weeks", value: "6.2", note: "189,231 zippers on order" },
     { label: "Molded backlog", value: "0.0 wk", note: "0 units" },
     { label: "Coil backlog", value: "1.1 wk", note: "12,620 units" },
-    { label: "Metal backlog", value: "0.3 wk", note: "3,520 units" },
+    { label: "Metal backlog", value: "0.3 wk", note: "3,720 units" },
   ],
   output: [
     { label: "Overall ZPOH", value: "67.6", note: "10-day" },
@@ -29,14 +29,14 @@ const data = {
   laminate: [
     { label: "Backlog weeks", value: "7.2", note: "129,354 yd late" },
     { label: "10-day output", value: "3,798", note: "STALE since 10/23", stale: true },
-    { label: "Yards scheduled", value: "165,252", note: "Total 123,365" },
+    { label: "Yards scheduled", value: "165,252", note: "Total 153,148" },
     { label: "Day capacity", value: "3,600", note: "Yards" },
   ],
   raw: [
-    { label: "Open orders", value: "23" },
+    { label: "Open orders", value: "33" },
     { label: "Avg fulfillment", value: "27.0 d", note: "Order to ship" },
-    { label: "Past due orders", value: "17" },
-    { label: "Past due %", value: "77%", note: "17 of 22" },
+    { label: "Past due orders", value: "16" },
+    { label: "Past due %", value: "57%", note: "16 of 28" },
   ],
   cycleZip: [
     { label: "Order → start", value: "85.2 d" },
@@ -51,9 +51,9 @@ const data = {
     { label: "On-time ship %", value: "72.2%", note: "13 of 18 by due date" },
   ],
   movers: {
-    better: "Open complaints fell from 15 to 12. ZPOH rose from 66.0 to 67.6. Laminate past due fell to 129,354 yd.",
-    worse: "Recordables went from 0 to 1 (TRIR 6.1). Zipper past due steady at 16,140.",
-    notes: "BC refreshed 4:30 PM: 188,991 zippers on order (6.2 wk). New duplicate: Holiday Industries Llc SO14969. No ship date: SO14940 KZRV, SO14947 HBD Inc., SO14945 Blue Delta, SO14939 Mount Rogers.",
+    better: "Laminate on order 153,148 yd (sheet now includes NetSuite). Production, quality and safety unchanged since last night.",
+    worse: "Zipper past due 16,340 (was 16,140). Oldest complaint 103 d.",
+    notes: "BC refreshed 6:01 AM: 189,231 zippers on order (6.2 wk). New duplicate: none. No ship date: SO14940 KZRV, SO14947 HBD Inc., SO14945 Blue Delta, SO14939 Mount Rogers. Laminate BC 123,365 + NS 29,783 yd. Crossdock BC 23 + NS 10.",
   },
 }
 
