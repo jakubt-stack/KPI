@@ -21,14 +21,14 @@ const data = {
     { label: "Metal backlog", value: "0.3 wk", note: "3,720 units" },
   ],
   output: [
-    { label: "Overall ZPOH", value: "64.5", note: "STALE: no production logged 13 Nov · 10-day all · capacity basis 73.9", stale: true },
+    { label: "Overall ZPOH", value: "64.5", note: "Stale: 11/12/26", stale: true },
     { label: "Molded ZPOH", value: "59.5", note: "10-day" },
     { label: "Metal/Coil ZPOH", value: "74.0", note: "10-day" },
-    { label: "10-day actual", value: "3,959", note: "STALE: log ends 12 Nov · All / day · 65% of 6,075 · target 7,725", stale: true },
+    { label: "10-day actual", value: "3,959", note: "Stale: 11/12/26", stale: true },
   ],
   laminate: [
     { label: "Backlog weeks", value: "8.3", note: "149,940 yd late" },
-    { label: "10-day output", value: "3,750", note: "STALE: log ends 12 Nov · Yards/day · 30 Oct–12 Nov", stale: true },
+    { label: "10-day output", value: "3,750", note: "Stale: 11/12/26", stale: true },
     { label: "Yards scheduled", value: "165,252", note: "Total 153,148" },
     { label: "Day capacity", value: "3,600", note: "Yards" },
   ],
