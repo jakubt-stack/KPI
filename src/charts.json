@@ -22,7 +22,8 @@
    "10/12",
    "10/19",
    "10/26",
-   "11/2"
+   "11/2",
+   "11/9 (partial)"
   ],
   "zippers": [
    2580,
@@ -46,7 +47,8 @@
    26149,
    25126,
    19507,
-   19594
+   19594,
+   16463
   ],
   "zpoh": [
    66.3,
@@ -70,8 +72,14 @@
    75.3,
    72.5,
    64.9,
-   67.3
-  ]
+   67.3,
+   61.8
+  ],
+  "partial": [
+   "11/9 (partial)"
+  ],
+  "last_output_day": "2026-11-12",
+  "source": "Molding productivity sheet 19GPYaIiu1v15F9NOSCWfy32iLHAbOOHC6a2q2VG5_Xs, tab 'Daily Data' (live read)"
  },
  "totals": {
   "labels": [
@@ -312,6 +320,8 @@
    2
   ]
  ],
+ "subcats_classified_through": "2026-10-19",
+ "subcats_note": "Categorized through 19 Oct; 9 complaints filed since not yet in it",
  "asOf": "2026-11-16",
  "note": "Page-2 chart data (same as PDF/Excel Charts tab). Not rendered by the TV app; TV layout is page 1 only."
 }

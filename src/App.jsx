@@ -42,7 +42,7 @@ const data = {
     { label: "Order → start", value: "83.7 d" },
     { label: "Start → complete", value: "14.6 d" },
     { label: "Start → ship", value: "21.0 d" },
-    { label: "Complete → ship", value: "10.0 d", note: "On-time ship 61.6%" },
+    { label: "Complete → ship", value: "9.8 d", note: "On-time ship 61.6%" },
   ],
   cycleLam: [
     { label: "Order → ship", value: "73.2 d" },
