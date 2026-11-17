@@ -22,8 +22,8 @@ const data = {
   ],
   output: [
     { label: "Overall ZPOH", value: "64.5", note: "Stale: 11/12/26", stale: true },
-    { label: "Molded ZPOH", value: "59.5", note: "10-day" },
-    { label: "Metal/Coil ZPOH", value: "74.0", note: "10-day" },
+    { label: "Molded ZPOH", value: "59.5", note: "Target 90" },
+    { label: "Metal/Coil ZPOH", value: "74.0", note: "Target 125" },
     { label: "10-day actual", value: "3,959", note: "Stale: 11/12/26", stale: true },
   ],
   laminate: [
