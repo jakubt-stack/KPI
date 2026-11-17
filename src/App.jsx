@@ -21,14 +21,14 @@ const data = {
     { label: "Metal backlog", value: "0.3 wk", note: "3,720 units" },
   ],
   output: [
-    { label: "Overall ZPOH", value: "64.5", note: "Stale: 11/12/26", stale: true },
-    { label: "Molded ZPOH", value: "59.5", note: "Target 90" },
-    { label: "Metal/Coil ZPOH", value: "74.0", note: "Target 125" },
-    { label: "10-day actual", value: "3,959", note: "Stale: 11/12/26", stale: true },
+    { label: "Overall ZPOH", value: "65.2", note: "10-day" },
+    { label: "Molded ZPOH", value: "60.9", note: "Target 90" },
+    { label: "Metal/Coil ZPOH", value: "73.7", note: "Target 125" },
+    { label: "10-day actual", value: "4,209", note: "All / day · 69% of 6,075 · target 7,725" },
   ],
   laminate: [
     { label: "Backlog weeks", value: "8.3", note: "149,940 yd late" },
-    { label: "10-day output", value: "3,750", note: "Stale: 11/12/26", stale: true },
+    { label: "10-day output", value: "3,794", note: "10-day avg" },
     { label: "Yards scheduled", value: "165,252", note: "Total 153,148" },
     { label: "Day capacity", value: "3,600", note: "Yards" },
   ],
@@ -52,7 +52,7 @@ const data = {
   ],
   movers: {
     better: "Zippers on order 156,569 to 151,624 (5.2 to 5.0 wk). On-time ship 61.6% to 62.8%. Open complaints 12 to 9. Laminate unchanged.",
-    worse: "Cycle: start to ship 21.2 d, complete to ship 10.1 d (was 21.0 / 9.8). Zipper past due unchanged 16,540. Crossdock past due 15 of 27. Production not logged since 12 Nov (STALE). Oldest complaint 108 d.",
+    worse: "Cycle: start to ship 21.2 d, complete to ship 10.1 d (was 21.0 / 9.8). Zipper past due unchanged 16,540. Crossdock past due 15 of 27. Oldest complaint 108 d. Production to 11/16: ZPOH 65.2, 10-day 4,209/day.",
     notes: "BC refreshed 5:43 AM: 151,624 = BC 93,564 + NS 58,060. New duplicates: none. Possible: SO15003 vs S-ORD112756, SO14958 vs S-ORD114010. Laminate BC 123,365 + NS 29,783 yd. Crossdock BC 19 + NS 10.",
   },
 }
