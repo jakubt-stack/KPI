@@ -10,7 +10,7 @@ const data = {
   ],
   quality: [
     { label: "Open complaints", value: "9", note: "3 closed, none new" },
-    { label: "Oldest open", value: "108 d", note: "Filed 1 Aug", sub: "AVG TTC 18.9 d" },
+    { label: "Oldest open", value: "108 d", sub: "AVG TTC 18.9 d" },
     { label: "Scrap past week", value: "0.49%", note: "103 of 21,152 · YTD 1,878 · last log 13 Nov" },
     { label: "Avg daily audits", value: "12.3", note: "358 total · 2 failed" },
   ],
