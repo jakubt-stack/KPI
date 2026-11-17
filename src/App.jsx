@@ -1,7 +1,7 @@
 import React from 'react'
 
 const data = {
-  asOf: '2026-11-16',
+  asOf: '2026-11-17',
   safety: [
     { label: "TRIR", value: "6.1", note: "1 recordable" },
     { label: "Recordables", value: "1", note: "5 Nov finger injury" },
@@ -9,13 +9,13 @@ const data = {
     { label: "HiPo", value: "0", note: "YTD" },
   ],
   quality: [
-    { label: "Open complaints", value: "12", note: "4 closed, 1 new" },
-    { label: "Oldest open", value: "107 d", note: "Filed 1 Aug" },
+    { label: "Open complaints", value: "9", note: "3 closed, none new" },
+    { label: "Oldest open", value: "108 d", note: "Filed 1 Aug" },
     { label: "Scrap past week", value: "0.49%", note: "103 of 21,152 · YTD 1,878 · last log 13 Nov" },
     { label: "Avg daily audits", value: "12.3", note: "358 total · 2 failed" },
   ],
   delivery: [
-    { label: "Full ERP weeks", value: "5.2", note: "156,569 zippers on order" },
+    { label: "Full ERP weeks", value: "5.0", note: "151,624 zippers on order" },
     { label: "Molded backlog", value: "0.0 wk", note: "200 units" },
     { label: "Coil backlog", value: "1.1 wk", note: "12,620 units" },
     { label: "Metal backlog", value: "0.3 wk", note: "3,720 units" },
@@ -33,16 +33,16 @@ const data = {
     { label: "Day capacity", value: "3,600", note: "Yards" },
   ],
   raw: [
-    { label: "Open orders", value: "30" },
+    { label: "Open orders", value: "29" },
     { label: "Avg fulfillment", value: "27.0 d", note: "Order to ship · carried from 11/12 (not re-read)" },
     { label: "Past due orders", value: "15" },
     { label: "Past due %", value: "56%", note: "15 of 27" },
   ],
   cycleZip: [
-    { label: "Order → start", value: "83.7 d" },
-    { label: "Start → complete", value: "14.6 d" },
-    { label: "Start → ship", value: "21.0 d" },
-    { label: "Complete → ship", value: "9.8 d", note: "On-time ship 61.6%" },
+    { label: "Order → start", value: "82.8 d" },
+    { label: "Start → complete", value: "14.8 d" },
+    { label: "Start → ship", value: "21.2 d" },
+    { label: "Complete → ship", value: "10.1 d", note: "On-time ship 62.8%" },
   ],
   cycleLam: [
     { label: "Order → ship", value: "73.2 d" },
@@ -51,9 +51,9 @@ const data = {
     { label: "On-time ship %", value: "72.2%", note: "13 of 18 by due date" },
   ],
   movers: {
-    better: "Zippers on order 186,626 to 156,569 (5.2 wk). On-time ship 61.6%. Laminate unchanged.",
-    worse: "Zipper past due 16,340 to 16,540 (NS SO15003 +200). Crossdock past due 15 of 27. Production not logged since 12 Nov (STALE). Oldest complaint 107 d.",
-    notes: "BC refreshed 6:37 AM: 156,569 = BC 98,509 + NS 58,060. New duplicates: none. Possible: SO15003 vs S-ORD112756, SO14958 vs S-ORD114010. Laminate BC 123,365 + NS 29,783 yd. Crossdock BC 19 + NS 11.",
+    better: "Zippers on order 156,569 to 151,624 (5.2 to 5.0 wk). On-time ship 61.6% to 62.8%. Open complaints 12 to 9. Laminate unchanged.",
+    worse: "Cycle: start to ship 21.2 d, complete to ship 10.1 d (was 21.0 / 9.8). Zipper past due unchanged 16,540. Crossdock past due 15 of 27. Production not logged since 12 Nov (STALE). Oldest complaint 108 d.",
+    notes: "BC refreshed 5:43 AM: 151,624 = BC 93,564 + NS 58,060. New duplicates: none. Possible: SO15003 vs S-ORD112756, SO14958 vs S-ORD114010. Laminate BC 123,365 + NS 29,783 yd. Crossdock BC 19 + NS 10.",
   },
 }
 

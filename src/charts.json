@@ -257,11 +257,11 @@
  "subcats": [
   [
    "Wrong chain type (coil vs molded)",
-   7
+   12
   ],
   [
    "Wrong slider",
-   6
+   9
   ],
   [
    "Wrong size / gauge",
@@ -269,7 +269,7 @@
   ],
   [
    "Wrong color",
-   4
+   5
   ],
   [
    "Wrong component",
@@ -277,7 +277,7 @@
   ],
   [
    "Generic wrong item",
-   17
+   10
   ],
   [
    "Heat weld / WR film",
@@ -285,15 +285,15 @@
   ],
   [
    "Pin / box retention",
-   5
+   4
   ],
   [
    "Fray / cut ends",
-   4
+   5
   ],
   [
    "Slider function",
-   4
+   3
   ],
   [
    "Cut / form",
@@ -301,7 +301,11 @@
   ],
   [
    "Chain function",
-   2
+   1
+  ],
+  [
+   "Dye-lot quality issue",
+   1
   ],
   [
    "Carrier (no label, barcode, lost, short)",
@@ -309,7 +313,7 @@
   ],
   [
    "Address / double ship",
-   2
+   5
   ],
   [
    "Billing",
@@ -317,11 +321,14 @@
   ],
   [
    "Overship / short in the box",
-   2
+   3
+  ],
+  [
+   "Damaged product",
+   1
   ]
  ],
- "subcats_note": "Categorized through 19 Oct; 9 complaints filed since not yet in it",
- "subcats_classified_through": "2026-10-19",
- "asOf": "2026-11-16",
+ "subcats_note": "",
+ "asOf": "2026-11-17",
  "note": "Page-2 chart data (same as PDF/Excel Charts tab). Not rendered by the TV app; TV layout is page 1 only."
 }
