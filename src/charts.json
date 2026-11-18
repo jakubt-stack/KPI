@@ -50,7 +50,7 @@
    19507,
    19594,
    20442,
-   5313
+   9966
   ],
   "zpoh": [
    66.3,
@@ -76,12 +76,12 @@
    64.9,
    67.3,
    60.5,
-   81.4
+   76.4
   ],
   "partial": [
    "11/16 (partial)"
   ],
-  "last_output_day": "2026-11-16",
+  "last_output_day": "2026-11-17",
   "source": "Molding productivity sheet 19GPYaIiu1v15F9NOSCWfy32iLHAbOOHC6a2q2VG5_Xs, tab 'Daily Data' (live read)"
  },
  "totals": {
@@ -188,7 +188,7 @@
    139468,
    171798,
    163805,
-   203803
+   222602
   ],
   "new_rev": [
    null,
@@ -332,6 +332,6 @@
   ]
  ],
  "subcats_note": "",
- "asOf": "2026-11-17",
+ "asOf": "2026-11-18",
  "note": "Page-2 chart data (same as PDF/Excel Charts tab). Not rendered by the TV app; TV layout is page 1 only."
 }

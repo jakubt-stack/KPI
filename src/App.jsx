@@ -1,7 +1,7 @@
 import React from 'react'
 
 const data = {
-  asOf: '2026-11-17',
+  asOf: '2026-11-18',
   safety: [
     { label: "TRIR", value: "6.1", note: "1 recordable" },
     { label: "Recordables", value: "1", note: "5 Nov finger injury" },
@@ -9,40 +9,40 @@ const data = {
     { label: "HiPo", value: "0", note: "YTD" },
   ],
   quality: [
-    { label: "Open complaints", value: "9", note: "3 closed, none new" },
-    { label: "Oldest open", value: "108 d", sub: "AVG TTC 18.9 d" },
+    { label: "Open complaints", value: "8", note: "1 closed, none new" },
+    { label: "Oldest open", value: "109 d", sub: "AVG TTC 18.9 d" },
     { label: "Scrap past week", value: "0.49%", note: "103 of 21,152 · YTD 1,878 · last log 13 Nov" },
     { label: "Avg daily audits", value: "12.3", note: "358 total · 2 failed" },
   ],
   delivery: [
-    { label: "Full ERP weeks", value: "5.0", note: "151,624 zippers on order" },
+    { label: "Full ERP weeks", value: "5.0", note: "150,575 zippers on order" },
     { label: "Molded backlog", value: "0.0 wk", note: "200 units" },
-    { label: "Coil backlog", value: "1.1 wk", note: "12,620 units" },
-    { label: "Metal backlog", value: "0.3 wk", note: "3,720 units" },
+    { label: "Coil backlog", value: "0.9 wk", note: "10,120 units" },
+    { label: "Metal backlog", value: "0.3 wk", note: "3,145 units" },
   ],
   output: [
-    { label: "Overall ZPOH", value: "65.2", note: "10-day" },
-    { label: "Molded ZPOH", value: "60.9", note: "Target 90" },
-    { label: "Metal/Coil ZPOH", value: "73.7", note: "Target 125" },
-    { label: "10-day actual", value: "4,209", note: "All / day · 69% of 6,075 · target 7,725" },
+    { label: "Overall ZPOH", value: "66.4", note: "10-day" },
+    { label: "Molded ZPOH", value: "62.3", note: "Target 90" },
+    { label: "Metal/Coil ZPOH", value: "74.6", note: "Target 125" },
+    { label: "10-day actual", value: "4,338", note: "All / day · 71% of 6,075 · target 7,725" },
   ],
   laminate: [
     { label: "Backlog weeks", value: "8.3", note: "149,940 yd late" },
-    { label: "10-day output", value: "3,794", note: "10-day avg" },
+    { label: "10-day output", value: "3,783", note: "10-day avg" },
     { label: "Yards scheduled", value: "165,252", note: "Total 153,148" },
     { label: "Day capacity", value: "3,600", note: "Yards" },
   ],
   raw: [
-    { label: "Open orders", value: "29" },
+    { label: "Open orders", value: "32" },
     { label: "Avg fulfillment", value: "27.0 d", note: "Order to ship · carried from 11/12 (not re-read)" },
     { label: "Past due orders", value: "15" },
-    { label: "Past due %", value: "56%", note: "15 of 27" },
+    { label: "Past due %", value: "58%", note: "15 of 26" },
   ],
   cycleZip: [
-    { label: "Order → start", value: "82.8 d" },
-    { label: "Start → complete", value: "14.8 d" },
-    { label: "Start → ship", value: "21.2 d" },
-    { label: "Complete → ship", value: "10.1 d", note: "On-time ship 62.8%" },
+    { label: "Order → start", value: "81.8 d" },
+    { label: "Start → complete", value: "14.9 d" },
+    { label: "Start → ship", value: "21.1 d" },
+    { label: "Complete → ship", value: "10.0 d", note: "On-time ship 64.1%" },
   ],
   cycleLam: [
     { label: "Order → ship", value: "73.2 d" },
@@ -51,9 +51,9 @@ const data = {
     { label: "On-time ship %", value: "72.2%", note: "13 of 18 by due date" },
   ],
   movers: {
-    better: "Zippers on order 156,569 to 151,624 (5.2 to 5.0 wk). On-time ship 61.6% to 62.8%. Open complaints 12 to 9. Laminate unchanged.",
-    worse: "Cycle: start to ship 21.2 d, complete to ship 10.1 d (was 21.0 / 9.8). Zipper past due unchanged 16,540. Crossdock past due 15 of 27. Oldest complaint 108 d. Production to 11/16: ZPOH 65.2, 10-day 4,209/day.",
-    notes: "BC refreshed 5:43 AM: 151,624 = BC 93,564 + NS 58,060. New duplicates: none. Possible: SO15003 vs S-ORD112756, SO14958 vs S-ORD114010. Laminate BC 123,365 + NS 29,783 yd. Crossdock BC 19 + NS 10.",
+    better: "Zippers on order 151,624 to 150,575 (5.0 wk). Past due 16,540 to 13,465. On-time ship 62.8% to 64.1%. Open complaints 9 to 8. ZPOH 65.2 to 66.4.",
+    worse: "Crossdock open 29 to 32, past due 15 of 26. Start to complete 14.9 d. Oldest complaint 109 d. Laminate unchanged. Production to 11/17: ZPOH 66.4, 10-day 4,338/day.",
+    notes: "BC refreshed 5:47 AM: 150,575 = BC 91,865 + NS 58,710. New duplicates: United Industrial Textile Products SO15003. Possible: SO14958 vs S-ORD114010, SO14951 vs S-ORD113775. Laminate BC 123,365 + NS 29,783 yd. Crossdock BC 18 + NS 14.",
   },
 }
 
