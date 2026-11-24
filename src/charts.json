@@ -24,7 +24,8 @@
    "10/26",
    "11/2",
    "11/9",
-   "11/16"
+   "11/16",
+   "11/23 (partial)"
   ],
   "zippers": [
    2580,
@@ -50,7 +51,8 @@
    19507,
    19594,
    20442,
-   27225
+   27225,
+   5375
   ],
   "zpoh": [
    66.3,
@@ -76,10 +78,13 @@
    64.9,
    67.3,
    60.5,
-   78.6
+   78.6,
+   90.3
   ],
-  "partial": [],
-  "last_output_day": "2026-11-20",
+  "partial": [
+   "11/23 (partial)"
+  ],
+  "last_output_day": "2026-11-23",
   "source": "Molding productivity sheet 19GPYaIiu1v15F9NOSCWfy32iLHAbOOHC6a2q2VG5_Xs, tab 'Daily Data' (live read)"
  },
  "totals": {
@@ -191,7 +196,7 @@
    171798,
    163805,
    222602,
-   74097.52
+   74098
   ],
   "new_rev": [
    null,
@@ -213,7 +218,7 @@
    141170,
    86470,
    95610,
-   455039.27
+   455039
   ],
   "rev_source": "Schedule sheet 1YQLxtTQc738DQOUknT827XJTRdYOEmHZZ4YJpDj7XQ0, tab Totals, block A27:AA40 read through AA; weeks B27:U27 (20 filled); row 38 'Shipped revenue', row 40 'New orders revenue' (blank before first filled)"
  },
@@ -336,6 +341,6 @@
   ]
  ],
  "subcats_note": "",
- "asOf": "2026-11-23",
+ "asOf": "2026-11-24",
  "note": "Page-2 chart data (same as PDF/Excel Charts tab). Not rendered by the TV app; TV layout is page 1 only."
 }
